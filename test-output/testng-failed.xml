@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="Adventure_Android.Adventure_Android_Testing">
+        <methods>
+          <include name="run"/>
+          <include name="end"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Adventure_Android.Adventure_Android_Testing -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
