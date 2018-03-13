@@ -1,0 +1,46 @@
+2018-03-13 23:38:32,272 - open -INFO - Start test at 2018/03/13 23:38:32
+2018-03-13 23:38:32,277 - open -INFO - Setup to connect devices
+2018-03-13 23:39:10,289 - open -INFO - Done setup to connect devices
+2018-03-13 23:39:10,290 - open -INFO - Connect database
+2018-03-13 23:39:10,290 - open -INFO - Connect database success
+2018-03-13 23:39:11,130 - run -INFO - End testcase 1
+2018-03-13 23:39:11,132 - run -INFO - End testcase 2
+2018-03-13 23:39:11,133 - run -INFO - End testcase 3
+2018-03-13 23:39:11,134 - run -INFO - End testcase 4
+2018-03-13 23:39:11,134 - run -INFO - End testcase 5
+2018-03-13 23:39:11,135 - run -INFO - End testcase 6
+2018-03-13 23:39:11,135 - run -INFO - End testcase 7
+2018-03-13 23:39:11,224 - run -INFO - End testcase 8
+2018-03-13 23:39:11,224 - run -INFO - End testcase 9
+2018-03-13 23:39:11,225 - run -INFO - End testcase 10
+2018-03-13 23:39:11,225 - run -INFO - End testcase 11
+2018-03-13 23:39:11,227 - run -INFO - End testcase 12
+2018-03-13 23:39:11,228 - run -INFO - End testcase 13
+2018-03-13 23:39:11,229 - run -INFO - End testcase 14
+2018-03-13 23:39:11,229 - run -INFO - End testcase 15
+2018-03-13 23:39:11,230 - run -INFO - End testcase 16
+2018-03-13 23:39:11,231 - run -INFO - End testcase 17
+2018-03-13 23:39:11,231 - run -INFO - End testcase 18
+2018-03-13 23:39:11,232 - run -INFO - End testcase 19
+2018-03-13 23:39:11,233 - run -INFO - End testcase 20
+2018-03-13 23:39:11,233 - run -INFO - End testcase 21
+2018-03-13 23:39:11,234 - run -INFO - End testcase 22
+2018-03-13 23:39:11,235 - run -INFO - End testcase 23
+2018-03-13 23:39:11,235 - run -INFO - End testcase 24
+2018-03-13 23:39:11,236 - run -INFO - End testcase 25
+2018-03-13 23:39:11,236 - run -INFO - End testcase 26
+2018-03-13 23:39:11,237 - run -INFO - End testcase 27
+2018-03-13 23:39:11,238 - run -INFO - End testcase 28
+2018-03-13 23:39:11,238 - run -INFO - End testcase 29
+2018-03-13 23:39:11,239 - run -INFO - End testcase 30
+2018-03-13 23:39:11,239 - run -INFO - End testcase 31
+2018-03-13 23:39:11,240 - run -INFO - End testcase 32
+2018-03-13 23:39:11,241 - run -INFO - End testcase 33
+2018-03-13 23:39:11,241 - run -INFO - End testcase 34
+2018-03-13 23:39:11,241 - run -INFO - End testcase 35
+2018-03-13 23:39:11,242 - run -INFO - End testcase 36
+2018-03-13 23:39:11,242 - run -INFO - End testcase 37
+2018-03-13 23:39:11,242 - run -INFO - End testcase 38
+2018-03-13 23:39:11,243 - run -INFO - End testcase 39
+2018-03-13 23:39:11,243 - run -INFO - End testcase 40
+2018-03-13 23:39:11,244 - run -INFO - Start testcase 41

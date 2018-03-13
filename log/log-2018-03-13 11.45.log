@@ -1,0 +1,7 @@
+2018-03-13 11:45:00,299 - open -INFO - Start test at 2018/03/13 11:45:00
+2018-03-13 11:45:00,302 - open -INFO - Setup to connect devices
+2018-03-13 11:45:29,972 - open -INFO - Done setup to connect devices
+2018-03-13 11:45:29,972 - open -INFO - Connect database
+2018-03-13 11:45:29,973 - open -INFO - Connect database success
+2018-03-13 11:45:30,359 - end -INFO - Tong thoi gian chay: 30s ~ 0p30s
+2018-03-13 11:45:30,359 - end -INFO - Tong time nghi: 0s ~ 0p0s

@@ -1,0 +1,102 @@
+2018-03-13 11:50:39,382 - open -INFO - Start test at 2018/03/13 11:50:39
+2018-03-13 11:50:39,385 - open -INFO - Setup to connect devices
+2018-03-13 11:51:09,061 - open -INFO - Done setup to connect devices
+2018-03-13 11:51:09,062 - open -INFO - Connect database
+2018-03-13 11:51:09,062 - open -INFO - Connect database success
+2018-03-13 11:51:09,447 - run -INFO - Start testcase 1
+2018-03-13 11:51:09,449 - run -INFO - End testcase 1
+2018-03-13 11:51:09,450 - run -INFO - Start testcase 2
+2018-03-13 11:51:09,451 - run -INFO - End testcase 2
+2018-03-13 11:51:09,451 - run -INFO - Start testcase 3
+2018-03-13 11:51:09,453 - run -INFO - End testcase 3
+2018-03-13 11:51:09,453 - run -INFO - Start testcase 4
+2018-03-13 11:51:09,838 - run -INFO - End testcase 4
+2018-03-13 11:51:09,839 - run -INFO - Start testcase 5
+2018-03-13 11:51:09,845 - run -INFO - End testcase 5
+2018-03-13 11:51:09,848 - run -INFO - Start testcase 6
+2018-03-13 11:51:09,853 - run -INFO - End testcase 6
+2018-03-13 11:51:09,854 - run -INFO - Start testcase 7
+2018-03-13 11:51:09,857 - run -INFO - End testcase 7
+2018-03-13 11:51:09,857 - run -INFO - Start testcase 8
+2018-03-13 11:51:09,859 - run -INFO - End testcase 8
+2018-03-13 11:51:09,860 - run -INFO - Start testcase 9
+2018-03-13 11:51:09,862 - run -INFO - End testcase 9
+2018-03-13 11:51:09,862 - run -INFO - Start testcase 10
+2018-03-13 11:51:09,864 - run -INFO - End testcase 10
+2018-03-13 11:51:09,865 - run -INFO - Start testcase 11
+2018-03-13 11:51:09,866 - run -INFO - End testcase 11
+2018-03-13 11:51:09,867 - run -INFO - Start testcase 12
+2018-03-13 11:51:09,869 - run -INFO - End testcase 12
+2018-03-13 11:51:09,870 - run -INFO - Start testcase 13
+2018-03-13 11:51:09,871 - run -INFO - End testcase 13
+2018-03-13 11:51:09,872 - run -INFO - Start testcase 14
+2018-03-13 11:51:09,874 - run -INFO - End testcase 14
+2018-03-13 11:51:09,874 - run -INFO - Start testcase 15
+2018-03-13 11:51:09,877 - run -INFO - End testcase 15
+2018-03-13 11:51:09,877 - run -INFO - Start testcase 16
+2018-03-13 11:51:09,879 - run -INFO - End testcase 16
+2018-03-13 11:51:09,880 - run -INFO - Start testcase 17
+2018-03-13 11:51:09,881 - run -INFO - End testcase 17
+2018-03-13 11:51:09,881 - run -INFO - Start testcase 18
+2018-03-13 11:51:09,882 - run -INFO - End testcase 18
+2018-03-13 11:51:09,882 - run -INFO - Start testcase 19
+2018-03-13 11:51:09,883 - run -INFO - End testcase 19
+2018-03-13 11:51:09,884 - run -INFO - Start testcase 20
+2018-03-13 11:51:09,885 - run -INFO - End testcase 20
+2018-03-13 11:51:09,885 - run -INFO - Start testcase 21
+2018-03-13 11:51:09,886 - run -INFO - End testcase 21
+2018-03-13 11:51:09,886 - run -INFO - Start testcase 22
+2018-03-13 11:51:09,887 - run -INFO - End testcase 22
+2018-03-13 11:51:09,888 - run -INFO - Start testcase 23
+2018-03-13 11:51:09,888 - run -INFO - End testcase 23
+2018-03-13 11:51:09,889 - run -INFO - Start testcase 24
+2018-03-13 11:51:09,890 - run -INFO - End testcase 24
+2018-03-13 11:51:09,890 - run -INFO - Start testcase 25
+2018-03-13 11:51:09,891 - run -INFO - End testcase 25
+2018-03-13 11:51:09,892 - run -INFO - Start testcase 26
+2018-03-13 11:51:09,893 - run -INFO - End testcase 26
+2018-03-13 11:51:09,894 - run -INFO - Start testcase 27
+2018-03-13 11:51:09,895 - run -INFO - End testcase 27
+2018-03-13 11:51:09,895 - run -INFO - Start testcase 28
+2018-03-13 11:51:09,896 - run -INFO - End testcase 28
+2018-03-13 11:51:09,897 - run -INFO - Start testcase 29
+2018-03-13 11:51:09,898 - run -INFO - End testcase 29
+2018-03-13 11:51:09,898 - run -INFO - Start testcase 30
+2018-03-13 11:51:09,901 - run -INFO - End testcase 30
+2018-03-13 11:51:09,902 - run -INFO - Start testcase 31
+2018-03-13 11:51:09,906 - run -INFO - End testcase 31
+2018-03-13 11:51:09,906 - run -INFO - Start testcase 32
+2018-03-13 11:51:09,907 - run -INFO - End testcase 32
+2018-03-13 11:51:09,907 - run -INFO - Start testcase 33
+2018-03-13 11:51:09,908 - run -INFO - End testcase 33
+2018-03-13 11:51:09,908 - run -INFO - Start testcase 34
+2018-03-13 11:51:09,909 - run -INFO - End testcase 34
+2018-03-13 11:51:09,909 - run -INFO - Start testcase 35
+2018-03-13 11:51:09,910 - run -INFO - End testcase 35
+2018-03-13 11:51:09,911 - run -INFO - Start testcase 36
+2018-03-13 11:51:09,911 - run -INFO - End testcase 36
+2018-03-13 11:51:09,914 - run -INFO - Start testcase 37
+2018-03-13 11:51:09,915 - run -INFO - End testcase 37
+2018-03-13 11:51:09,915 - run -INFO - Start testcase 38
+2018-03-13 11:51:09,916 - run -INFO - End testcase 38
+2018-03-13 11:51:09,917 - run -INFO - Start testcase 39
+2018-03-13 11:51:09,917 - run -INFO - End testcase 39
+2018-03-13 11:51:09,918 - run -INFO - Start testcase 40
+2018-03-13 11:51:09,919 - run -INFO - End testcase 40
+2018-03-13 11:51:09,919 - run -INFO - Start testcase 41
+2018-03-13 11:51:09,927 - joinAndInterested -INFO - check demo 1 yêu cầu tham gia va quan tâm
+2018-03-13 11:51:09,927 - Logout -INFO - touch menu
+2018-03-13 11:51:17,638 - Logout -INFO - touch Dang xuat
+2018-03-13 11:51:19,468 - joinAndInterested -INFO - login demo1
+2018-03-13 11:51:19,469 - Login -INFO - Start Login
+2018-03-13 11:51:19,469 - Login -INFO - Login account
+2018-03-13 11:51:19,470 - Login -INFO - click button login email
+2018-03-13 11:51:20,111 - Login -INFO - send username
+2018-03-13 11:51:33,172 - Login -INFO - send pass 
+2018-03-13 11:51:50,218 - Login -INFO - click button login
+2018-03-13 11:51:50,890 - joinAndInterested -INFO - touch chuyen di
+2018-03-13 11:51:56,403 - joinAndInterested -INFO - touch Tham gia
+2018-03-13 11:51:56,790 - joinAndInterested -INFO - gioi thieu ban than
+2018-03-13 11:52:05,018 - joinAndInterested -INFO - touch Cap nhat
+2018-03-13 11:52:06,381 - joinAndInterested -INFO - touch quan tam
+2018-03-13 11:52:06,945 - joinAndInterested -INFO - quay lại màn hình trước

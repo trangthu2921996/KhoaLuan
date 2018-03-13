@@ -61,9 +61,11 @@ public class TripScheduleManagement {
 		driver.click("id=studio.crazybt.adventure:id/btnPlacesStartPosition", 10);
 		logger.info("send Diem bat dau");		
 		driver.sendKey("id=com.google.android.gms:id/edit_text", excel.getStringData(column, 4), 5000);
-		logger.info("touch diem bat dau");		
+		logger.info("touch diem bat dau");
 		driver.clickByClassName("id=com.google.android.gms:id/list", "android.widget.RelativeLayout", 0, 1000);
-		logger.info("send Tom tat diem den");		
+		logger.info("send Tom tat diem den");
+		driver.sleep(50);
+		//driver.click("id=studio.crazybt.adventure:id/etCreateTripDescriptionSummary", 20);
 		driver.sendKey("id=studio.crazybt.adventure:id/etCreateTripDescriptionSummary", excel.getStringData(column, 5), 5);
 		logger.info("touch Ban do Diem den");		
 		driver.click("id=studio.crazybt.adventure:id/btnPlacesDestination", 5);
@@ -72,7 +74,8 @@ public class TripScheduleManagement {
 		logger.info("touch diem den");		
 		driver.clickByClassName("id=com.google.android.gms:id/list", "android.widget.RelativeLayout", 0, 1000);
 
-		logger.info("send Ngay bat dau");		
+		logger.info("send Ngay bat dau");
+		driver.click("id=studio.crazybt.adventure:id/etCreateTripStartTime", 20);
 		driver.sendKey("id=studio.crazybt.adventure:id/etCreateTripStartTime", excel.getCellDate(column, 7), 10);
 		logger.info("send Ngay ket thuc");	
 		driver.sendKey("id=studio.crazybt.adventure:id/etCreateTripEndTime", excel.getCellDate(column, 8), 10);
@@ -535,7 +538,8 @@ public class TripScheduleManagement {
 				return true;
 			}
 		}else if(column ==25) {
-			logger.info("Check nhập số âm");			
+			logger.info("Check nhập số âm");
+			driver.click("id=studio.crazybt.adventure:id/etCreateTripMoney", 10);
 			driver.sendKey("id=studio.crazybt.adventure:id/etCreateTripMoney", excel.getStringData(3,30), 5);
 			try {
 				if(driver.getText("id=studio.crazybt.adventure:id/etCreateTripMoneyError").equals(excel.getStringData(7, 11))) {
@@ -626,8 +630,8 @@ public class TripScheduleManagement {
 				driver.clear("id=studio.crazybt.adventure:id/tetCreateTripVehicle");
 				driver.sendKey("id=studio.crazybt.adventure:id/tetCreateTripVehicle", excel.getStringData(2,32)+"\n", 10);
 				//them doan nay demo- neu bo nhung case duoi
-				logger.info("touch button Dang");				
-				driver.click("id=studio.crazybt.adventure:id/itemPost", 100);
+				//logger.info("touch button Dang");				
+				//driver.click("id=studio.crazybt.adventure:id/itemPost", 100);
 				return true;
 			}else {			
 				logger.info("Fail: Cho phép nhập phương tiện giống nhau");
@@ -637,8 +641,8 @@ public class TripScheduleManagement {
 				driver.clear("id=studio.crazybt.adventure:id/tetCreateTripVehicle");
 				driver.sendKey("id=studio.crazybt.adventure:id/tetCreateTripVehicle", excel.getStringData(2,32)+"\n", 10);
 				//them doan nay demo- neu bo nhung case duoi
-				logger.info("touch button Dang");				
-				driver.click("id=studio.crazybt.adventure:id/itemPost", 100);
+				//logger.info("touch button Dang");				
+				//driver.click("id=studio.crazybt.adventure:id/itemPost", 100);
 				return false;
 			}
 		}else if(column ==31) {
@@ -713,6 +717,7 @@ public class TripScheduleManagement {
 					logger.info("Pass: khong the lon hon ngay [Ket thuc]");
 					driver.clear("id=studio.crazybt.adventure:id/etEndTimeRoute");
 					logger.info("Ngay ket thuc hop le");					
+					driver.click("id=studio.crazybt.adventure:id/etEndTimeRoute", 10);
 					driver.sendKey("id=studio.crazybt.adventure:id/etEndTimeRoute", excel.getCellDate(2, 34), 10);
 					return true;
 				}
@@ -721,6 +726,7 @@ public class TripScheduleManagement {
 				driver.takeScreenShotfFail("[Trip]_[Them chi tiet]_[Ngay ket thuc] lon hon [Ket thuc]");
 				driver.clear("id=studio.crazybt.adventure:id/etEndTimeRoute");
 				logger.info("Ngay ket thuc hop le");
+				driver.click("id=studio.crazybt.adventure:id/etEndTimeRoute", 10);
 				driver.sendKey("id=studio.crazybt.adventure:id/etEndTimeRoute", excel.getCellDate(2, 34), 10);
 				return false;
 			}
@@ -1194,7 +1200,7 @@ public class TripScheduleManagement {
 			logger.info("check người tạo bài thảo luận xem thông báo Bình luận");
 			logger.info("touch vào thông báo Bình luận");
 			driver.getElenment("id=studio.crazybt.adventure:id/rvNotifications").findElementsByClassName("android.widget.RelativeLayout").get(0).click();
-			try {
+			//try {
 				if(driver.getElenment("id=studio.crazybt.adventure:id/tvContentStatus").getText().equals(excel.getStringData(1, 48))) {
 					driver.getElenment("id=studio.crazybt.adventure:id/tvCountComment").click();
 					if(driver.getElenment("id=studio.crazybt.adventure:id/etvContentComment").getText().equals(excel.getStringData(1, 49))) {
@@ -1203,7 +1209,8 @@ public class TripScheduleManagement {
 						return true;
 					}
 				}
-			}catch(Exception e) {
+			//}catch(Exception e) {
+				else {
 				logger.info("Fail: Xem thông báo Bình luận không thành công");
 				driver.takeScreenShotfFail("[Discussion]_Nguoi tao xem thong bao Binh luan khong thanh cong");
 				driver.swipingHorizontal("Left to Right");
@@ -1382,6 +1389,7 @@ public class TripScheduleManagement {
 			ac.logOut(driver);
 			logger.info("login demo1");
 			ac.logIn(driver, excel, 1, 43);
+			driver.sleep(50);
 			logger.info("touch chuyen di");
 			driver.getElenment("id=studio.crazybt.adventure:id/tvTripName").click();
 			logger.info("touch tab Nhật ký");
@@ -1393,7 +1401,7 @@ public class TripScheduleManagement {
 				}else {
 					logger.info("Fail: Không thể xem bài với quyền Công khai");
 					driver.takeScreenShotfFail("[Diary]_Nguoi tao khong the xem bai quyen Cong khai");
-					//return false;
+					return false;
 				}
 			}else {
 				logger.info("Fail: Không thể xem bài với quyền Thành viên chuyến đi");
@@ -1407,6 +1415,7 @@ public class TripScheduleManagement {
 			ac.logOut(driver);
 			logger.info("login demo2");
 			ac.logIn(driver, excel, 1, 44);
+			driver.sleep(50);
 			logger.info("touch chuyen di");
 			driver.getElenment("id=studio.crazybt.adventure:id/tvTripName").click();
 			logger.info("touch tab Nhật ký");
@@ -1414,10 +1423,14 @@ public class TripScheduleManagement {
 			logger.info("Không phải là thành viên trong chuyến đi -demo2- xem nhật ký");
 			if(driver.getElenment("id=studio.crazybt.adventure:id/rvDiaryTripShortcut").findElement(By.xpath("//*[@class='android.widget.FrameLayout' and @index='0']")).findElementById("studio.crazybt.adventure:id/ivPermission").getAttribute("name").equals("Công khai")) {
 				logger.info("Pass: Xem nhật ký thành công");
+				logger.info("touch button Quay lại màn hình tab công khai");
+				driver.getElenment("id=studio.crazybt.adventure:id/tbTrip").findElement(By.xpath("//*[@class='android.widget.ImageButton' and @index='0']")).click();
 				return true;
 			}else {
 				logger.info("Fail: Không thể xem bài với quyền Công khai");
 				driver.takeScreenShotfFail("[Diary]_Nguoi tao khong the xem bai quyen Cong khai");
+				logger.info("touch button Quay lại màn hình tab công khai");
+				driver.getElenment("id=studio.crazybt.adventure:id/tbTrip").findElement(By.xpath("//*[@class='android.widget.ImageButton' and @index='0']")).click();
 				return false;
 			}
 		}
@@ -1429,8 +1442,6 @@ public class TripScheduleManagement {
 		excel.accessSheet("Trip Schedule");
 		Adventure_Common ac = new Adventure_Common();
 		if(column==62) {
-			logger.info("touch button Quay lại màn hình tab công khai");
-			driver.getElenment("id=studio.crazybt.adventure:id/tbTrip").findElement(By.xpath("//*[@class='android.widget.ImageButton' and @index='0']")).click();
 			ac.logOut(driver);
 			logger.info("login trang thư - người tạo");
 			ac.logIn(driver, excel, 1, 42);

@@ -1,0 +1,77 @@
+2018-03-13 23:35:59,634 - open -INFO - Start test at 2018/03/13 23:35:59
+2018-03-13 23:35:59,638 - open -INFO - Setup to connect devices
+2018-03-13 23:36:34,724 - open -INFO - Done setup to connect devices
+2018-03-13 23:36:34,725 - open -INFO - Connect database
+2018-03-13 23:36:34,725 - open -INFO - Connect database success
+2018-03-13 23:36:35,426 - run -INFO - End testcase 1
+2018-03-13 23:36:35,427 - run -INFO - End testcase 2
+2018-03-13 23:36:35,428 - run -INFO - End testcase 3
+2018-03-13 23:36:35,429 - run -INFO - End testcase 4
+2018-03-13 23:36:35,431 - run -INFO - End testcase 5
+2018-03-13 23:36:35,432 - run -INFO - End testcase 6
+2018-03-13 23:36:35,433 - run -INFO - End testcase 7
+2018-03-13 23:36:35,442 - run -INFO - End testcase 8
+2018-03-13 23:36:35,442 - run -INFO - End testcase 9
+2018-03-13 23:36:35,443 - run -INFO - End testcase 10
+2018-03-13 23:36:35,443 - run -INFO - End testcase 11
+2018-03-13 23:36:35,445 - run -INFO - End testcase 12
+2018-03-13 23:36:35,446 - run -INFO - End testcase 13
+2018-03-13 23:36:35,446 - run -INFO - End testcase 14
+2018-03-13 23:36:35,447 - run -INFO - End testcase 15
+2018-03-13 23:36:35,447 - run -INFO - End testcase 16
+2018-03-13 23:36:35,448 - run -INFO - End testcase 17
+2018-03-13 23:36:35,448 - run -INFO - End testcase 18
+2018-03-13 23:36:35,449 - run -INFO - End testcase 19
+2018-03-13 23:36:35,449 - run -INFO - End testcase 20
+2018-03-13 23:36:35,449 - run -INFO - End testcase 21
+2018-03-13 23:36:35,450 - run -INFO - End testcase 22
+2018-03-13 23:36:35,450 - run -INFO - End testcase 23
+2018-03-13 23:36:35,451 - run -INFO - End testcase 24
+2018-03-13 23:36:35,451 - run -INFO - End testcase 25
+2018-03-13 23:36:35,454 - run -INFO - End testcase 26
+2018-03-13 23:36:35,454 - run -INFO - End testcase 27
+2018-03-13 23:36:35,455 - run -INFO - End testcase 28
+2018-03-13 23:36:35,455 - run -INFO - End testcase 29
+2018-03-13 23:36:35,455 - run -INFO - End testcase 30
+2018-03-13 23:36:35,455 - run -INFO - End testcase 31
+2018-03-13 23:36:35,456 - run -INFO - End testcase 32
+2018-03-13 23:36:35,456 - run -INFO - End testcase 33
+2018-03-13 23:36:35,456 - run -INFO - End testcase 34
+2018-03-13 23:36:35,457 - run -INFO - End testcase 35
+2018-03-13 23:36:35,457 - run -INFO - End testcase 36
+2018-03-13 23:36:35,457 - run -INFO - End testcase 37
+2018-03-13 23:36:35,458 - run -INFO - End testcase 38
+2018-03-13 23:36:35,458 - run -INFO - End testcase 39
+2018-03-13 23:36:35,459 - run -INFO - End testcase 40
+2018-03-13 23:36:35,459 - run -INFO - Start testcase 41
+2018-03-13 23:36:35,473 - run -INFO - End testcase 41
+2018-03-13 23:36:35,473 - run -INFO - End testcase 42
+2018-03-13 23:36:35,474 - run -INFO - End testcase 43
+2018-03-13 23:36:35,474 - run -INFO - End testcase 44
+2018-03-13 23:36:35,475 - run -INFO - End testcase 45
+2018-03-13 23:36:35,475 - run -INFO - End testcase 46
+2018-03-13 23:36:35,475 - run -INFO - End testcase 47
+2018-03-13 23:36:35,476 - run -INFO - End testcase 48
+2018-03-13 23:36:35,476 - run -INFO - End testcase 49
+2018-03-13 23:36:35,476 - run -INFO - End testcase 50
+2018-03-13 23:36:35,477 - run -INFO - End testcase 51
+2018-03-13 23:36:35,477 - run -INFO - End testcase 52
+2018-03-13 23:36:35,477 - run -INFO - End testcase 53
+2018-03-13 23:36:35,478 - run -INFO - End testcase 54
+2018-03-13 23:36:35,478 - run -INFO - End testcase 55
+2018-03-13 23:36:35,478 - run -INFO - End testcase 56
+2018-03-13 23:36:35,479 - run -INFO - End testcase 57
+2018-03-13 23:36:35,479 - run -INFO - End testcase 58
+2018-03-13 23:36:35,479 - run -INFO - End testcase 59
+2018-03-13 23:36:35,480 - run -INFO - End testcase 60
+2018-03-13 23:36:35,480 - run -INFO - End testcase 61
+2018-03-13 23:36:35,482 - run -INFO - End testcase 62
+2018-03-13 23:36:35,482 - run -INFO - End testcase 63
+2018-03-13 23:36:35,483 - run -INFO - End testcase 64
+2018-03-13 23:36:35,483 - run -INFO - End testcase 65
+2018-03-13 23:36:35,485 - run -INFO - End testcase 66
+2018-03-13 23:36:35,485 - run -INFO - End testcase 67
+2018-03-13 23:36:35,486 - run -INFO - End testcase 68
+2018-03-13 23:36:35,486 - run -INFO - End testcase 69
+2018-03-13 23:36:35,543 - end -INFO - Tong thoi gian chay: 35s ~ 0p35s
+2018-03-13 23:36:35,544 - end -INFO - Tong time nghi: 0s ~ 0p0s

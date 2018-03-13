@@ -83,7 +83,7 @@ public class Adventure_Android_Testing {
 	//---------------------------------------------
 	@Test
 	/*
-	 * Hàm thực hiện auto test module Chuyến đi
+	 * Hàm thực hiện auto test
 	 */
 	public void run () throws Exception {
 		excel = new Excel(pathData, timeBuild);
@@ -93,17 +93,23 @@ public class Adventure_Android_Testing {
 		for(int i=1; i<excel.getSheet().getPhysicalNumberOfRows(); i++) {
 			final int index = i;
 			try {
-				if(excel.getStringData(Common.getIndex(array, "case"), i).equals(""))
-					break;
-				logger.info("Start testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
-				if(accessAction(excel, array, i,column) == true) {
-					writeResultToExcel(excel, actualResultColumn, index, "T");
-					column++;
-				}
-				else{
-					writeResultToExcel(excel, actualResultColumn, index, "F");
-					column++;
-				}
+				/*if(excel.getStringData(Common.getIndex(array, "expected result"), i) == null || excel.getStringData(Common.getIndex(array, "expected result"), i).equals(""))
+					continue;*/
+				if(excel.getStringData(Common.getIndex(array, "case"), i) != null && !excel.getStringData(Common.getIndex(array, "case"), i).equals(""))
+				{
+					if(excel.getStringData(Common.getIndex(array, "expected result"), i) != null && !excel.getStringData(Common.getIndex(array, "expected result"), i).equals(""))
+					{
+						logger.info("Start testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
+						if(accessAction(excel, array, i,column) == true) {
+							writeResultToExcel(excel, actualResultColumn, index, "T");
+							column++;
+						}
+						else{
+							writeResultToExcel(excel, actualResultColumn, index, "F");
+							column++;
+						}
+					}
+				} else break;
 				excel.accessSheet("run");
 				logger.info("End testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
 			} catch (Exception e) {
@@ -113,6 +119,7 @@ public class Adventure_Android_Testing {
 				logger.error(e.getMessage());
 				excel.accessSheet("Run");
 				logger.info("End testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
+				
 			}
 		}
 		excel.finish();
@@ -123,38 +130,38 @@ public class Adventure_Android_Testing {
 			System.out.println("get : "+ excel.getStringData(Common.getIndex(array, array[i]), row).equals(""));
 			if(!excel.getStringData(Common.getIndex(array, array[i]), row).equals("")){
 				switch(array[i]){
-					/*case "create trips":{//OKI
+					case "create trips":{
 						TripScheduleManagement ct= new TripScheduleManagement();
 						return ct.createTrips( driver, excel,column);
 					}
-					case "check trips view":{//OKI
+					case "check trips view":{
 						TripScheduleManagement ctv= new TripScheduleManagement();
 						return ctv.checkTripsView(driver,excel,column);
 					}
-					case "check validate form create trips":{//OKI
+					case "check validate form create trips":{
 						TripScheduleManagement cv= new TripScheduleManagement();
 						return cv.checkValidate(driver,excel,column);
-					}*/
-					case "join and interested":{//case này đang chưa chụp được ảnh màn hình mấy cái toast message
+					}
+					case "join and interested":{
 						TripScheduleManagement rt= new TripScheduleManagement();
 						return rt.joinAndInterested(driver,excel,column);
 					}
-					case "check discussion":{//OKI
+					case "check discussion":{
 						TripScheduleManagement cd= new TripScheduleManagement();
 						return cd.checkDiscussion(driver,excel,column);
 					}
-					/*case "create diary":{//chưa check được chụp ảnh toast message-- cần thêm thời gian chắc tầm 5.5s
+					case "create diary":{
 						TripScheduleManagement cdi= new TripScheduleManagement();
 						return cdi.createDiary(driver,excel,column);
 					}
-					case "check diary view":{//OKI
+					case "check diary view":{
 						TripScheduleManagement cdv= new TripScheduleManagement();
 						return cdv.checkDiaryView(driver,excel,column);
 					}
-					case "check validate form create diary":{//OKI
+					case "check validate form create diary":{
 						TripScheduleManagement cvf= new TripScheduleManagement();
 						return cvf.checkValidateDiary(driver,excel,column);
-					}*/
+					}
 				}
 
 				excel.write();

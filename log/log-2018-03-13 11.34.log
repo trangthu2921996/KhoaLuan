@@ -1,0 +1,35 @@
+2018-03-13 11:34:40,177 - open -INFO - Start test at 2018/03/13 11:34:40
+2018-03-13 11:34:40,180 - open -INFO - Setup to connect devices
+2018-03-13 11:35:09,683 - open -INFO - Done setup to connect devices
+2018-03-13 11:35:09,684 - open -INFO - Connect database
+2018-03-13 11:35:09,684 - open -INFO - Connect database success
+2018-03-13 11:35:10,121 - run -INFO - Start testcase T
+2018-03-13 11:35:10,130 - run -INFO - End testcase T
+2018-03-13 11:35:10,130 - run -INFO - Start testcase T
+2018-03-13 11:35:10,132 - run -INFO - End testcase T
+2018-03-13 11:35:10,132 - run -INFO - Start testcase T
+2018-03-13 11:35:10,133 - run -INFO - End testcase T
+2018-03-13 11:35:10,133 - run -INFO - Start testcase T
+2018-03-13 11:35:10,134 - run -INFO - End testcase T
+2018-03-13 11:35:10,135 - run -INFO - Start testcase T
+2018-03-13 11:35:10,136 - run -INFO - End testcase T
+2018-03-13 11:35:10,136 - run -INFO - Start testcase T
+2018-03-13 11:35:10,140 - run -INFO - End testcase T
+2018-03-13 11:35:10,140 - run -INFO - Start testcase T
+2018-03-13 11:35:10,141 - run -INFO - End testcase T
+2018-03-13 11:35:10,141 - run -INFO - Start testcase T
+2018-03-13 11:35:10,541 - run -INFO - End testcase T
+2018-03-13 11:35:10,542 - run -INFO - Start testcase T
+2018-03-13 11:35:10,545 - run -INFO - End testcase T
+2018-03-13 11:35:10,546 - run -INFO - Start testcase T
+2018-03-13 11:35:10,559 - run -INFO - End testcase T
+2018-03-13 11:35:10,559 - run -INFO - Start testcase T
+2018-03-13 11:35:10,565 - run -INFO - End testcase T
+2018-03-13 11:35:10,566 - run -INFO - Start testcase T
+2018-03-13 11:35:10,572 - run -INFO - End testcase T
+2018-03-13 11:35:10,573 - run -INFO - Start testcase T
+2018-03-13 11:35:10,577 - run -INFO - End testcase T
+2018-03-13 11:35:10,578 - run -INFO - Start testcase T
+2018-03-13 11:35:10,584 - run -INFO - End testcase T
+2018-03-13 11:35:10,617 - end -INFO - Tong thoi gian chay: 30s ~ 0p30s
+2018-03-13 11:35:10,617 - end -INFO - Tong time nghi: 0s ~ 0p0s
