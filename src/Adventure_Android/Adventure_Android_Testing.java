@@ -87,7 +87,7 @@ public class Adventure_Android_Testing {
 	 */
 	public void run () throws Exception {
 		excel = new Excel(pathData, timeBuild);
-		excel.accessSheet("run");
+		excel.accessSheet(Define.SHEET_RUN);
 		int column = 2;
 
 		for(int i=1; i<excel.getSheet().getPhysicalNumberOfRows(); i++) {
