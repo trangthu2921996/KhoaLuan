@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36013" started-at="2018-03-13T16:35:59Z" finished-at="2018-03-13T16:36:35Z">
+  <suite name="Suite" duration-ms="737044" started-at="2018-03-31T14:13:07Z" finished-at="2018-03-31T14:25:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36013" started-at="2018-03-13T16:35:59Z" finished-at="2018-03-13T16:36:35Z">
+    <test name="Test" duration-ms="737044" started-at="2018-03-31T14:13:07Z" finished-at="2018-03-31T14:25:24Z">
       <class name="Adventure_Android.Adventure_Android_Testing">
-        <test-method status="PASS" signature="open()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@56ef9176]" name="open" is-config="true" duration-ms="35781" started-at="2018-03-13T23:35:59Z" finished-at="2018-03-13T23:36:35Z">
+        <test-method status="PASS" signature="open()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@3796751b]" name="open" is-config="true" duration-ms="52908" started-at="2018-03-31T21:13:07Z" finished-at="2018-03-31T21:14:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method status="PASS" signature="run()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@56ef9176]" name="run" duration-ms="188" started-at="2018-03-13T23:36:35Z" finished-at="2018-03-13T23:36:35Z">
+        <test-method status="PASS" signature="run()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@3796751b]" name="run" duration-ms="684070" started-at="2018-03-31T21:14:00Z" finished-at="2018-03-31T21:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- run -->
-        <test-method status="PASS" signature="end()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@56ef9176]" name="end" is-config="true" duration-ms="3" started-at="2018-03-13T23:36:35Z" finished-at="2018-03-13T23:36:35Z">
+        <test-method status="PASS" signature="end()[pri:0, instance:Adventure_Android.Adventure_Android_Testing@3796751b]" name="end" is-config="true" duration-ms="1" started-at="2018-03-31T21:25:24Z" finished-at="2018-03-31T21:25:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->
       </class> <!-- Adventure_Android.Adventure_Android_Testing -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

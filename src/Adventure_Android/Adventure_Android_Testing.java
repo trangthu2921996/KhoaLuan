@@ -88,10 +88,9 @@ public class Adventure_Android_Testing {
 	public void run () throws Exception {
 		excel = new Excel(pathData, timeBuild);
 		excel.accessSheet("run");
-		int column = 2;
+		
 
 		for(int i=1; i<excel.getSheet().getPhysicalNumberOfRows(); i++) {
-			final int index = i;
 			try {
 				/*if(excel.getStringData(Common.getIndex(array, "expected result"), i) == null || excel.getStringData(Common.getIndex(array, "expected result"), i).equals(""))
 					continue;*/
@@ -100,18 +99,18 @@ public class Adventure_Android_Testing {
 					if(excel.getStringData(Common.getIndex(array, "expected result"), i) != null && !excel.getStringData(Common.getIndex(array, "expected result"), i).equals(""))
 					{
 						logger.info("Start testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
-						if(accessAction(excel, array, i,column) == true) {
-							writeResultToExcel(excel, actualResultColumn, index, "T");
-							column++;
+						if(accessAction(excel, array, i,i+1) == true) {
+							writeResultToExcel(excel, actualResultColumn, i, "T");
+							
 						}
 						else{
-							writeResultToExcel(excel, actualResultColumn, index, "F");
-							column++;
+							writeResultToExcel(excel, actualResultColumn, i, "F");
+							
 						}
+						excel.accessSheet("run");
+						logger.info("End testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
 					}
-				} else break;
-				excel.accessSheet("run");
-				logger.info("End testcase "+excel.getStringData(Common.getIndex(array, "case"), i));
+				}
 			} catch (Exception e) {
 				excel.accessSheet("Run");
 				excel.printStringIntoExcel(actualResultColumn,i,"F");
@@ -172,8 +171,8 @@ public class Adventure_Android_Testing {
 	}
 
 	private void writeResultToExcel(Excel excel, int actualResultColumn, int index, String result) {
-		new Thread() {
-			public void run() {
+//		new Thread() {
+//			public void run() {
 				try {
 						excel.accessSheet("run");
 						excel.printStringIntoExcel(actualResultColumn,index,result);
@@ -182,8 +181,8 @@ public class Adventure_Android_Testing {
 						// TODO Auto-generated catch block
 						e.printStackTrace();
 					}
-				}  
-		}.start();
+//				}  
+//		}.start();
 	}
 
 	//-------------------------------------------------

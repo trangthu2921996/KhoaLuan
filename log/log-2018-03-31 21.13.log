@@ -1,0 +1,161 @@
+﻿2018-03-31 21:13:07,964 - open -INFO - Start test at 2018/03/31 21:13:07
+2018-03-31 21:13:07,978 - open -INFO - Setup to connect devices
+2018-03-31 21:13:59,225 - open -INFO - Done setup to connect devices
+2018-03-31 21:13:59,226 - open -INFO - Connect database
+2018-03-31 21:13:59,226 - open -INFO - Connect database success
+2018-03-31 21:14:00,781 - run -INFO - Start testcase 1
+2018-03-31 21:14:00,816 - creatTrips -INFO - Start creat trips
+2018-03-31 21:14:00,817 - creatTrips -INFO - touch tab Ban tin
+2018-03-31 21:14:02,257 - creatTrips -INFO - touch +
+2018-03-31 21:14:02,428 - creatTrips -INFO - touch  tao chuyen di
+2018-03-31 21:14:05,275 - creatTrips -INFO - touch quyen rieng tu
+2018-03-31 21:14:07,438 - creatTrips -INFO - touch Cong khai
+2018-03-31 21:14:11,353 - creatTrips -INFO - send Ten chuyen di
+2018-03-31 21:14:25,636 - creatTrips -INFO - send Mieu ta
+2018-03-31 21:14:46,233 - creatTrips -INFO - touch Ban do Diem bat dau
+2018-03-31 21:14:49,658 - creatTrips -INFO - send Diem bat dau
+2018-03-31 21:15:08,616 - creatTrips -INFO - touch diem bat dau
+2018-03-31 21:15:11,348 - creatTrips -INFO - send Tom tat diem den
+2018-03-31 21:15:22,086 - creatTrips -INFO - touch Ban do Diem den
+2018-03-31 21:15:23,306 - creatTrips -INFO - send Diem den
+2018-03-31 21:15:41,143 - creatTrips -INFO - touch diem den
+2018-03-31 21:15:43,190 - creatTrips -INFO - send Ngay bat dau
+2018-03-31 21:15:55,696 - creatTrips -INFO - send Ngay ket thuc
+2018-03-31 21:16:06,001 - creatTrips -INFO - send Kinh phi
+2018-03-31 21:16:17,665 - creatTrips -INFO - send So nguoi
+2018-03-31 21:16:32,012 - creatTrips -INFO - send Phuong tien
+2018-03-31 21:16:42,080 - creatTrips -INFO - touch button Them chi tiet
+2018-03-31 21:16:43,192 - creatTrips -INFO - Ngay bat dau
+2018-03-31 21:16:54,076 - creatTrips -INFO - Ngay ket thuc
+2018-03-31 21:17:04,297 - creatTrips -INFO - send Tieu de
+2018-03-31 21:17:16,296 - creatTrips -INFO - send Noi dung
+2018-03-31 21:17:32,816 - creatTrips -INFO - send Chuan bi
+2018-03-31 21:17:42,605 - creatTrips -INFO - send Luu y
+2018-03-31 21:17:52,868 - creatTrips -INFO - touch button Dang
+2018-03-31 21:17:54,028 - creatTrips -INFO - take screen short and check toast message
+2018-03-31 21:18:00,657 - creatTrips -INFO - pass
+2018-03-31 21:18:24,151 - run -INFO - End testcase 1
+2018-03-31 21:18:24,153 - run -INFO - Start testcase 7
+2018-03-31 21:18:24,154 - check validate form create trips -INFO - Check validate
+2018-03-31 21:18:24,155 - check validate form create trips -INFO - touch tab Ban tin
+2018-03-31 21:18:27,970 - check validate form create trips -INFO - touch +
+2018-03-31 21:18:28,121 - check validate form create trips -INFO - touch  tao chuyen di
+2018-03-31 21:18:30,448 - check validate form create trips -INFO - touch quyen rieng tu
+2018-03-31 21:18:32,333 - check validate form create trips -INFO - Check cac gia tri combo box quyen rieng tu
+2018-03-31 21:18:34,022 - check validate form create trips -INFO - Pass: Combo box valid
+2018-03-31 21:18:34,023 - check validate form create trips -INFO - touch Cong khai
+2018-03-31 21:18:37,272 - run -INFO - End testcase 7
+2018-03-31 21:18:37,272 - run -INFO - Start testcase 8
+2018-03-31 21:18:37,273 - check validate form create trips -INFO - Start check trường Tên chuyến đi
+2018-03-31 21:18:37,274 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:18:37,274 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:18:38,477 - check validate form create trips -INFO - Pass: Không cho phép bỏ trống
+2018-03-31 21:18:38,477 - run -INFO - End testcase 8
+2018-03-31 21:18:38,478 - run -INFO - Start testcase 9
+2018-03-31 21:18:38,479 - check validate form create trips -INFO - Check nhập > 100 ký tự
+2018-03-31 21:18:57,003 - check validate form create trips -INFO - Fail: Được phép nhập > 100 ký tự
+2018-03-31 21:19:05,272 - check validate form create trips -INFO - Stop check trường Tên chuyến đi
+2018-03-31 21:19:18,838 - check validate form create trips -INFO - Tên chuyến đi hợp lệ
+2018-03-31 21:19:32,164 - run -INFO - End testcase 9
+2018-03-31 21:19:32,165 - run -INFO - Start testcase 10
+2018-03-31 21:19:32,167 - check validate form create trips -INFO - Start check trường Miêu tả
+2018-03-31 21:19:32,168 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:19:32,168 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:19:34,184 - check validate form create trips -INFO - Pass: Cho phép bỏ trống
+2018-03-31 21:19:34,185 - run -INFO - End testcase 10
+2018-03-31 21:19:34,186 - run -INFO - Start testcase 11
+2018-03-31 21:19:34,188 - check validate form create trips -INFO - Check nhập > 200 ký tự
+2018-03-31 21:19:51,295 - check validate form create trips -INFO - Fail: Được phép nhập > 200 ký tự
+2018-03-31 21:19:59,466 - check validate form create trips -INFO - Stop check trường Miêu tả
+2018-03-31 21:20:20,071 - check validate form create trips -INFO - Miêu tả hợp lệ
+2018-03-31 21:20:36,676 - run -INFO - End testcase 11
+2018-03-31 21:20:36,677 - run -INFO - Start testcase 12
+2018-03-31 21:20:36,678 - check validate form create trips -INFO - Start check trường Điểm bắt đầu
+2018-03-31 21:20:36,678 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:20:36,678 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:20:38,327 - check validate form create trips -INFO - Pass: Không cho phép bỏ trống
+2018-03-31 21:20:38,327 - run -INFO - End testcase 12
+2018-03-31 21:20:38,328 - run -INFO - Start testcase 13
+2018-03-31 21:20:38,329 - check validate form create trips -INFO - Check nhap 2 dia diem bat dau
+2018-03-31 21:20:38,329 - check validate form create trips -INFO - Dia diem thu nhat
+2018-03-31 21:20:38,329 - check validate form create trips -INFO - toch button Ban do
+2018-03-31 21:21:00,064 - check validate form create trips -INFO - Dia diem thu hai
+2018-03-31 21:21:00,065 - check validate form create trips -INFO - toch button
+2018-03-31 21:21:00,164 - check validate form create trips -INFO - Pass: Khong duoc phep nhap 2 diem den
+2018-03-31 21:21:00,164 - check validate form create trips -INFO - Stop check trường Điểm đến
+2018-03-31 21:21:00,165 - run -INFO - End testcase 13
+2018-03-31 21:21:00,165 - run -INFO - Start testcase 14
+2018-03-31 21:21:00,167 - check validate form create trips -INFO - Start check trường Tóm tắt điểm đến
+2018-03-31 21:21:00,167 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:21:00,168 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:21:01,133 - check validate form create trips -INFO - Fail: Cho phép bỏ trống
+2018-03-31 21:21:10,612 - run -INFO - End testcase 14
+2018-03-31 21:21:10,613 - run -INFO - Start testcase 15
+2018-03-31 21:21:10,613 - check validate form create trips -INFO - Check nhập > 100 ký tự
+2018-03-31 21:21:27,269 - check validate form create trips -INFO - Fail: Được phép nhập > 100 ký tự
+2018-03-31 21:21:36,321 - check validate form create trips -INFO - Stop check trường Tóm tắt điểm đến
+2018-03-31 21:21:52,882 - check validate form create trips -INFO - Tom tat diem den hop le
+2018-03-31 21:22:07,473 - run -INFO - End testcase 15
+2018-03-31 21:22:07,481 - run -INFO - Start testcase 16
+2018-03-31 21:22:07,482 - check validate form create trips -INFO - Start check trường Điểm đến
+2018-03-31 21:22:07,483 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:22:07,483 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:22:08,716 - check validate form create trips -INFO - Pass: Cho phép bỏ trống
+2018-03-31 21:22:08,716 - run -INFO - End testcase 16
+2018-03-31 21:22:08,717 - run -INFO - Start testcase 17
+2018-03-31 21:22:08,718 - check validate form create trips -INFO - Check nhap 2 dia diem
+2018-03-31 21:22:08,719 - check validate form create trips -INFO - Dia diem thu nhat
+2018-03-31 21:22:08,719 - check validate form create trips -INFO - toch button Ban do
+2018-03-31 21:22:30,128 - check validate form create trips -INFO - Dia diem thu hai
+2018-03-31 21:22:30,128 - check validate form create trips -INFO - toch button Ban do
+2018-03-31 21:22:50,008 - check validate form create trips -INFO - Pass: Nhap 2 diem den
+2018-03-31 21:22:50,009 - check validate form create trips -INFO - Stop check trường Điểm đến
+2018-03-31 21:22:50,010 - run -INFO - End testcase 17
+2018-03-31 21:22:50,010 - run -INFO - Start testcase 18
+2018-03-31 21:22:50,011 - check validate form create trips -INFO - Start check trường Ngày bắt đầu
+2018-03-31 21:22:50,012 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:22:50,012 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:22:50,896 - check validate form create trips -INFO - Pass: Khong cho phép bỏ trống
+2018-03-31 21:22:50,897 - run -INFO - End testcase 18
+2018-03-31 21:22:50,898 - run -INFO - Start testcase 19
+2018-03-31 21:22:50,899 - check validate form create trips -INFO - Check chọn thời gian < thời gian hiện tại
+2018-03-31 21:23:04,061 - check validate form create trips -INFO - Fail: Co the nho hon ngay hien tai
+2018-03-31 21:23:13,021 - check validate form create trips -INFO - Stop check trường Ngày bắt đầu
+2018-03-31 21:23:18,080 - check validate form create trips -INFO - Ngay bat dau hop le
+2018-03-31 21:23:31,352 - run -INFO - End testcase 19
+2018-03-31 21:23:31,353 - run -INFO - Start testcase 20
+2018-03-31 21:23:31,355 - check validate form create trips -INFO - Start check trường Ngày kết thúc
+2018-03-31 21:23:31,355 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:23:31,356 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:23:32,607 - check validate form create trips -INFO - Pass: Cho phép bỏ trống
+2018-03-31 21:23:32,607 - run -INFO - End testcase 20
+2018-03-31 21:23:32,608 - run -INFO - Start testcase 21
+2018-03-31 21:23:32,609 - check validate form create trips -INFO - Check chọn thời gian < thời gian hiện tại
+2018-03-31 21:23:42,875 - check validate form create trips -INFO - Fail: Co the nho hon ngay hien tai
+2018-03-31 21:23:51,299 - run -INFO - End testcase 21
+2018-03-31 21:23:51,300 - run -INFO - Start testcase 22
+2018-03-31 21:23:51,301 - check validate form create trips -INFO - Check chọn thời gian < thời gian [Bắt đầu]
+2018-03-31 21:24:03,667 - check validate form create trips -INFO - Fail: Co the nho hon ngay [Bat dau]
+2018-03-31 21:24:12,446 - check validate form create trips -INFO - Stop check trường Ngày kết thúc
+2018-03-31 21:24:17,296 - check validate form create trips -INFO - Ngay ket thuc hop le
+2018-03-31 21:24:30,200 - run -INFO - End testcase 22
+2018-03-31 21:24:30,201 - run -INFO - Start testcase 23
+2018-03-31 21:24:30,202 - check validate form create trips -INFO - Start check trường [Kinh phí]
+2018-03-31 21:24:30,202 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:24:30,203 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:24:31,350 - check validate form create trips -INFO - Pass: Cho phép bỏ trống
+2018-03-31 21:24:31,351 - run -INFO - End testcase 23
+2018-03-31 21:24:31,352 - run -INFO - Start testcase 24
+2018-03-31 21:24:31,352 - check validate form create trips -INFO - Check nhập số âm
+2018-03-31 21:24:45,416 - check validate form create trips -INFO - Fail: Cho phép nhập số âm
+2018-03-31 21:24:53,785 - check validate form create trips -INFO - Stop check trường [Kinh phí]
+2018-03-31 21:25:00,226 - check validate form create trips -INFO - Kinh phí hợp lệ
+2018-03-31 21:25:14,099 - run -INFO - End testcase 24
+2018-03-31 21:25:14,100 - run -INFO - Start testcase 25
+2018-03-31 21:25:14,104 - check validate form create trips -INFO - Start check trường [Số người]
+2018-03-31 21:25:14,105 - check validate form create trips -INFO - Check bỏ trống
+2018-03-31 21:25:14,105 - check validate form create trips -INFO - touch button Dang
+2018-03-31 21:25:15,804 - check validate form create trips -INFO - Fail: Không cho phép bỏ trống
+2018-03-31 21:25:24,716 - run -INFO - End testcase 25
+2018-03-31 21:25:24,762 - end -INFO - Tong thoi gian chay: 736s ~ 12p16s
+2018-03-31 21:25:24,762 - end -INFO - Tong time nghi: 31s ~ 0p31s
